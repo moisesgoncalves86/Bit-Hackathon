@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "SmartCart by CONTINENTE",
+  "short_name": "SmartCart by CONTINENTE",
+  "version": "0.3",
+  "description": "SmartCart by CONTINENTE unlocks a new level of convenience for your cooking needs.",
+  "icons": {
+          "128": "img/logo.png"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "options_page": "html/options.html",
+  "browser_action": {
+    "default_title": "SmartCart by CONTINENTE",
+    "default_icon": "img/logo.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },  
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*", "https://*/*"
+      ],
+      "css": ["css/recipe_filter.css"],
+      "js": ["js/main.js"]
+    }
+  ]
+}

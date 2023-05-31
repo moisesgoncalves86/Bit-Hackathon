@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+#_rf_highlight {
+    position: absolute !important;
+	font-size: 50%;
+    top: 0 !important;
+    left: 50% !important;
+    transform: translate(-50%, 0) !important;
+    margin: 20px !important;
+    padding: 10px !important;
+    background: white !important;
+    z-index: 999999999 !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px 9999999px !important;
+    max-width: 700px !important;
+    min-width: 340px !important;
+    display: none;
+    border-radius: 6px;
+}
+#_rf_header {
+    display: block;
+    padding: 12px 8px;
+    margin: 0;
+    color: rgba(255, 255, 255);
+    background: rgba(255, 0, 0);
+    font-family: 'Orbitron', sans-serif; /* Add 'Orbitron' font and fallback sans-serif */
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+._rfbtn {
+    color: rgb(255, 0, 0);
+    font-size: 80%;
+    font-weight: 3px;
+    background-color:  rgba(255, 255, 255);
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    padding: 2px 8px;
+    margin: 0 8px;
+    min-width: 200px;
+    text-decoration: none;
+    float: right;
+}
